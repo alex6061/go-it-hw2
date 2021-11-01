@@ -210,6 +210,14 @@ address li {
     font-weight: 400;
 }
 
+.info:hover {
+    font-family: 'Roboto-Regular',Arial,sans-serif;
+    font-size: 14px;
+    color: white;
+    opacity: 60%;
+    font-weight: 400;
+}
+
 
 
 
