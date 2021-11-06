@@ -249,21 +249,22 @@ address li {
     color: white;
 }
 
-.info {
-    font-family: 'Roboto-Regular',Arial,sans-serif;
-    font-size: 14px;
-    color: #FFFFFF;
-    opacity: 60%;
-    font-weight: 400;
+
+.footer_tel {
+    color: rgba(255, 255, 255, 0.6);
+    transition: 7ms;
+}
+.footer_tel:hover{
+    color: white;
+    transition: 7ms;
+    outline: none;
+}
+.footer_tel:focus{
+    color: white;
+    transition: 7ms;
+    outline: none;
 }
 
-.info:hover {
-    font-family: 'Roboto-Regular',Arial,sans-serif;
-    font-size: 14px;
-    color: white;
-    opacity: 60%;
-    font-weight: 400;
-}
 
 
 
