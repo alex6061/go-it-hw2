@@ -14,7 +14,15 @@ p {
 }
 
 @font-face {
-    font-family: 'Roboto-Regular', Arial, sans-serif;
+    font-family: 'Roboto-Regular';
+}
+
+@font-face {
+    font-family: 'Raleway';
+}
+
+@font-face {
+    font-family: 'Oleo Script';
 }
 
 
@@ -110,100 +118,6 @@ nav {
     transition: 7ms;
 }
 
-
-/*header {*/
-/*    height: 80px;*/
-/*    width: 100%;*/
-/*    background: #fff;*/
-/*    border-bottom: 1px solid #ECECEC;*/
-/*}*/
-
-/*nav {*/
-/*    display: inline-block;*/
-/*}*/
-
-/*.header_logo {*/
-/*    float: left;*/
-/*    margin: 24px 0 25px;*/
-/*    text-decoration: none;*/
-/*}*/
-
-/*.web {*/
-/*    font-family: 'Raleway-Regular',Arial,sans-serif;*/
-/*    font-size: 26px;*/
-/*    font-weight: 700;*/
-/*    color: #2196F3;*/
-/*    letter-spacing: 0.03em;*/
-/*}*/
-/*.studio {*/
-/*    font-family: 'Raleway-Regular',Arial,sans-serif;*/
-/*    font-size: 26px;*/
-/*    font-weight: bold;*/
-/*    letter-spacing: 0.03em;*/
-/*    color: #212121;*/
-/*}*/
-
-/*.header_nav {*/
-/*    display: inline-block;*/
-/*    overflow: hidden;*/
-/*}*/
-
-/*.header_contacts {*/
-/*    float: right;*/
-/*    margin: 33px 0 25px 93px;*/
-/*}*/
-
-/*.header_contacts li {*/
-/*    display: inline-block;*/
-/*    margin-right: 50px;*/
-/*}*/
-
-/*.header_contacts li a {*/
-/*    text-decoration: none;*/
-/*    font-family: 'Roboto-Regular',Arial,sans-serif;*/
-/*    font-weight: 500;*/
-/*    font-size: 14px;*/
-/*    color: #212121;*/
-/*    letter-spacing: 0.02em;*/
-/*}*/
-/*.header_contacts li a:hover{*/
-/*    text-decoration: none;*/
-/*    font-family: 'Roboto-Regular',Arial,sans-serif;*/
-/*    font-weight: 500;*/
-/*    font-size: 14px;*/
-/*    color: #2196F3;*/
-/*    transition: 7ms;*/
-/*}*/
-
-/*.tel {*/
-/*    margin: 33px 0 24px 200px;*/
-/*    float: right;*/
-/*    display: inline-block;*/
-/*}*/
-
-/*.tel li {*/
-/*    display: inline-block;*/
-/*    margin-right: 50px;*/
-/*}*/
-
-/*.tel a {*/
-/*    text-decoration: none;*/
-/*    color: #757575;*/
-/*    font-size: 14px;*/
-/*    font-family: 'Roboto-Regular',Arial,sans-serif;*/
-/*    font-weight: 500;*/
-/*}*/
-
-/*.tel a:hover {*/
-/*    text-decoration: none;*/
-/*    font-size: 14px;*/
-/*    font-family: 'Roboto-Regular',Arial,sans-serif;*/
-/*    font-weight: 500;*/
-/*    color: #2196F3;*/
-/*    transition: 7ms;*/
-/*}*/
-
-
 /*====section_what_we_do===*/
 
 .first_section {
@@ -238,6 +152,10 @@ h1 {
     color: white;
     border-radius: 3px;
     border: none;
+    font-family: Roboto-Regular, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 700;
 }
 
 /*===section_team===*/
