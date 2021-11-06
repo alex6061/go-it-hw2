@@ -81,7 +81,7 @@ nav {
     color: #212121;
     letter-spacing: 0.02em;
 }
-.header_contacts li a:hover:focus{
+.header_contacts li a:hover{
     font-family: 'Roboto-Regular',Arial,sans-serif;
     font-weight: 500;
     font-size: 14px;
