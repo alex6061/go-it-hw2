@@ -9,6 +9,9 @@ ul {margin: 0 auto;padding: 0;}
     width: 1170px;
     margin: 0 auto;
 }
+:focus {
+    outline: none;
+}
 p {
     color: #757575;
 }
@@ -98,6 +101,7 @@ nav {
     font-size: 14px;
     color: #2196F3;
     transition: 7ms;
+    outline: none;
 }
 
 .tel {
@@ -135,6 +139,7 @@ nav {
     font-weight: 500;
     color: #2196F3;
     transition: 7ms;
+    outline: none;
 }
 
 
@@ -179,6 +184,7 @@ main {
         color: white;
         transition: 0.3s;
         font-family: 'Roboto-Regular',Arial,sans-serif;
+        outline: none;
     }
 
 

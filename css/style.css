@@ -5,9 +5,9 @@ p {margin: 0;}
 body {margin: 0;padding: 0;}
 ul {margin: 0 auto;padding: 0;}
 
-p {
-    color: #757575;
-}
+
+p {color: #757575;}
+
 .container {
     width: 1170px;
     margin: 0 auto;
@@ -81,13 +81,21 @@ nav {
     color: #212121;
     letter-spacing: 0.02em;
 }
-.header_contacts li a:hover{
-    text-decoration: none;
+.header_contacts li a:hover:focus{
     font-family: 'Roboto-Regular',Arial,sans-serif;
     font-weight: 500;
     font-size: 14px;
     color: #2196F3;
     transition: 7ms;
+}
+
+.header_contacts li a:focus{
+    font-family: 'Roboto-Regular',Arial,sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    color: #2196F3;
+    transition: 7ms;
+    outline: none;
 }
 
 .tel {
@@ -116,6 +124,15 @@ nav {
     font-weight: 500;
     color: #2196F3;
     transition: 7ms;
+}
+
+.tel a:focus{
+    font-size: 14px;
+    font-family: 'Roboto-Regular',Arial,sans-serif;
+    font-weight: 500;
+    color: #2196F3;
+    transition: 7ms;
+    outline: none;
 }
 
 /*====section_what_we_do===*/
@@ -290,13 +307,24 @@ address li {
     color: white;
 }
 
-.info {
-    font-family: 'Roboto-Regular',Arial,sans-serif;
-    font-size: 14px;
-    color: #FFFFFF;
-    opacity: 60%;
-    font-weight: 400;
+
+
+.footer_tel {
+    color: rgba(255, 255, 255, 0.6);
+    transition: 7ms;
 }
+.footer_tel:hover{
+    color: white;
+    transition: 7ms;
+    outline: none;
+}
+.footer_tel:focus{
+    color: white;
+    transition: 7ms;
+    outline: none;
+}
+
+
 
 
 
