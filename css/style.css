@@ -166,6 +166,17 @@ h1 {
     cursor: pointer;
 }
 
+.main_button:hover {
+    background: #1d70af;
+    transition: 0.3s;
+}
+
+.main_button:focus {
+    outline: none;
+    background: #1d70af;
+    transition: 0.3s;
+}
+
 /*===section_team===*/
 .wrapper {
     padding: 94px 0 94px;

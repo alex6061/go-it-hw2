@@ -9,9 +9,7 @@ ul {margin: 0 auto;padding: 0;}
     width: 1170px;
     margin: 0 auto;
 }
-:focus {
-    outline: none;
-}
+
 p {
     color: #757575;
 }
