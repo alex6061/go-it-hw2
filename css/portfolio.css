@@ -220,6 +220,12 @@ address li {
     padding-bottom: 9px;
 }
 
+address li a{
+    font-family: 'Roboto',Arial,sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+
 .town {
     font-family: 'Roboto-Regular',Arial,sans-serif;
     font-size: 14px;
