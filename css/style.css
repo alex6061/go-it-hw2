@@ -82,17 +82,11 @@ nav {
     letter-spacing: 0.02em;
 }
 .header_contacts li a:hover{
-    font-family: 'Roboto-Regular',Arial,sans-serif;
-    font-weight: 500;
-    font-size: 14px;
     color: #2196F3;
     transition: 7ms;
 }
 
 .header_contacts li a:focus{
-    font-family: 'Roboto-Regular',Arial,sans-serif;
-    font-weight: 500;
-    font-size: 14px;
     color: #2196F3;
     transition: 7ms;
     outline: none;
@@ -118,10 +112,6 @@ nav {
 }
 
 .tel a:hover {
-    text-decoration: none;
-    font-size: 14px;
-    font-family: 'Roboto-Regular',Arial,sans-serif;
-    font-weight: 500;
     color: #2196F3;
     transition: 7ms;
 }

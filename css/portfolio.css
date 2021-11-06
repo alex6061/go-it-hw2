@@ -85,20 +85,11 @@ nav {
 }
 
 .header_contacts li a:hover{
-    text-decoration: none;
-    font-family: 'Roboto-Regular',Arial,sans-serif;
-    font-weight: 500;
-    font-size: 14px;
     color: #2196F3;
     transition: 7ms;
 }
 
 .header_contacts a:focus{
-    border: none;
-    text-decoration: none;
-    font-family: 'Roboto-Regular',Arial,sans-serif;
-    font-weight: 500;
-    font-size: 14px;
     color: #2196F3;
     transition: 7ms;
     outline: none;
@@ -124,19 +115,11 @@ nav {
 }
 
 .tel a:hover{
-    text-decoration: none;
-    font-size: 14px;
-    font-family: 'Roboto-Regular',Arial,sans-serif;
-    font-weight: 500;
     color: #2196F3;
     transition: 7ms;
 }
 
 .tel a:focus{
-    text-decoration: none;
-    font-size: 14px;
-    font-family: 'Roboto-Regular',Arial,sans-serif;
-    font-weight: 500;
     color: #2196F3;
     transition: 7ms;
     outline: none;
@@ -171,19 +154,15 @@ main {
 }
 
     .choice button:hover {
-        font-size: 16px;
-        background: #2196F3;
         color: white;
-        transition: 0.3s;
-        font-family: 'Roboto-Regular',Arial,sans-serif;
+        background: #2196F3;
+        transition: 0.2s;
 
     }
     .choice button:focus {
-        font-size: 16px;
-        background: #2196F3;
         color: white;
-        transition: 0.3s;
-        font-family: 'Roboto-Regular',Arial,sans-serif;
+        background: #2196F3;
+        transition: 0.2s;
         outline: none;
     }
 
